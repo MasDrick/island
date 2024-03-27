@@ -1,0 +1,228 @@
+body{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+}
+div, p, button, form, a, ul, li{
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+
+}
+.content{
+	padding-bottom: 140px;
+}
+.head{
+	background: -webkit-linear-gradient(135deg, rgb(78, 191, 254), rgb(55, 143, 217));
+	background: -moz-linear-gradient(135deg, rgb(78, 191, 254), rgb(55, 143, 217));
+	background: linear-gradient(135deg, rgb(78, 191, 254), rgb(55, 143, 217));
+}
+.img{
+	padding-top: 62px;
+}
+.first{
+	padding-top: 155px;
+	width: 490px;
+}
+.dream{
+	font-size: 60px;
+}
+.intro{
+	width: 414px;
+	font-size: 18px;
+	padding: 0;
+	margin-top: 35px;
+	margin-bottom: 50px;
+}
+.btn{
+	background: #ffd429;
+	text-decoration: none;
+	color: #000;
+	padding: 20px 27px;
+	text-align: center;
+	font-weight: bold;
+	transition: all 0.5s ease;
+}
+.btn:hover{
+	background: #ffb413;
+}
+.main{
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+}
+.learn{
+	padding-top: 112px;
+	padding-bottom: 121px;
+}
+section{
+	color: #000;
+}
+.news{
+	font-weight: bold; 
+}
+.title{
+	text-align: center;
+	font-size: 30px;
+}
+.future{
+	width: 289px;
+	text-align: center;
+}
+.go{
+	width: 289px;
+	margin-top: -10px;
+}
+.time{
+	padding-top: 17px;
+}
+.book{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 75px;
+}
+.more{
+	background: #ecf3f8;
+	padding: 100px 0;
+}
+.form {
+	margin-top: 40px;
+	display:flex;
+	flex-direction: column; 
+	align-items: center;
+}
+
+input {
+	width: 375px;
+	border: 1px solid #bfb8d1;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	height: 54px;
+	padding-left: 38px;
+	padding-right: 100px;
+	margin-top: 15px;
+	box-sizing: border-box;
+}
+.btn-form {
+	border: 0;
+	cursor: pointer;
+	width: 375px;
+	margin-top: 15px;
+	font-weight: bold;
+}
+.nav{
+	text-align: center;
+}
+.footer{
+	padding: 60px 0;
+	background: #164d7a;
+	text-align: center;
+}
+@media screen and (max-width: 1200px) {
+	.container{
+		width: 960px;
+	}
+	.main{
+		flex-direction: column;
+	}
+	.image{
+		padding-top: 40px;	
+	}
+	.offer{
+		margin-right: auto;
+	}
+}
+@media screen and (max-width: 992px) {
+	.container{
+		width: 720px;
+	}
+	.offer{
+		margin-left: 15%;
+	}
+	.img{
+		margin-left: 42%;
+	}
+	.first{
+		text-align: center;
+	}
+	.btn{
+		margin-left: 30%;
+	}
+	.btn-form{
+		margin-left: -0%;
+	}
+	.intro{
+		text-align: center;
+		margin-left: 8%;
+	}
+}
+@media screen and (max-width: 768px) {
+	.container{
+		width: 540px;
+	}
+
+	.book{
+		flex-direction: column;
+		margin-left: 23%;
+	}
+	.offer{
+		margin-left: 5%;
+	}
+	.image{
+		width: 565 px;
+		height: 533px;
+	}
+	.future{
+		margin-top: 20px;
+	}
+}
+@media screen and (max-width: 576px) {
+	.container{
+		width: 90%;
+		}
+	.content{
+		
+	}	
+	.hahaha{
+		display:flex;
+		flex-direction: column; 
+		align-items: center
+	}
+	.first{
+		text-align: center;
+		width: 237px;
+		padding-top: 60px
+	}
+	.intro{
+		width: 201px
+	}
+	.btn{
+		margin-left: 0;
+		margin-left: 7%;	
+	}
+	.img{
+		margin-left: 31%
+	}
+	.image{
+		height: 300px
+	}
+	.book{
+		margin-left: -3%
+	}
+	input{
+		width: 260px
+	}
+	.btn-form{
+		width: 260px;
+		margin-left: 0
+	}
+}
